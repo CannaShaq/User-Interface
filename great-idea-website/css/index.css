@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,9 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-<<<<<<< Updated upstream
+
 /* Your code starts here! */
-=======
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
   width: 880px;
@@ -192,4 +192,71 @@ footer {
   text-align: center;
   font-size: 14px;
 }
->>>>>>> Stashed changes
+
+/* Your code starts here! */
+
+nav{
+	display: flex;
+	box-shadow:
+		7px 7px 15px rgba(55, 84, 170,.15),
+		-7px -7px 20px rgba(255, 255, 255,1),
+		inset 0px 0px 4px rgba(255, 255, 255,.2);
+}
+
+nav a{
+	margin: 20px;
+	color: grey;
+}
+
+.Motto{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.logoText{
+	font-size: 400%;
+	width: 50%;
+	height: 50%;
+}
+
+.logoImg{
+	width:50%;
+	height:50%;
+}
+
+.startedButton{
+	font-size: 150%;
+	color: grey;
+	box-shadow:
+		7px 7px 15px rgba(55, 84, 170,.15),
+		-7px -7px 20px rgba(255, 255, 255,1),
+		inset 0px 0px 4px rgba(255, 255, 255,.2);
+}
+hr{
+	margin-left: 10%;
+}
+.aboutFeatures{
+	display:flex;
+	margin-left: 10%;
+
+}
+
+.codeSnippet{
+	display:flex;
+	margin-top:20px;
+	margin-left: 10%;
+	margin-bottom:20px;
+}
+
+.bottomRow{
+	display:flex;
+	margin-left: 10%;
+}
+
+.addyStuff{
+	display: flex;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
